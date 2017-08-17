@@ -1,0 +1,13 @@
+
+<div id="container">
+  <h1>Player Status - Game {{ game }}</h1>
+
+  <a (click)="getGame(1)" [routerLink]="['game', '1']">Game 1</a>
+  <span>|</span>
+  <a (click)="getGame(2)" [routerLink]="['game', '2']">Game 2</a>
+  <span>|</span>
+  <a (click)="getGame(3)" [routerLink]="['game', '3']">Game 3</a><br>
+
+  <router-outlet></router-outlet>
+
+</div>

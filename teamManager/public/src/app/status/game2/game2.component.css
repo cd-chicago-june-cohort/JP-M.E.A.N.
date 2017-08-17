@@ -1,0 +1,18 @@
+#container {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid grey;
+    margin: 20px;
+}
+
+.playing {
+    background: green;
+}
+
+.notPlaying {
+    background: red;
+}
+
+.undecided {
+    background: yellow;
+}
