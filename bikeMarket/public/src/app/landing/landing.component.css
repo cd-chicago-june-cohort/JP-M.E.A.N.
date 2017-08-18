@@ -1,0 +1,15 @@
+#container {
+    width: 90%;
+    padding: 20px;
+    border: 3px solid navy;
+    margin: 20px;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+span {
+    color: red;
+}
